@@ -14,7 +14,7 @@ htmlcontent = r.content # r returns response so if we want the code we write r.c
 
 #Step 2: Parse the HTML
 soup = BeautifulSoup(htmlcontent, "html.parser") #. All the data we want is present in soup, we just have to target it and get it.
-print(soup.prettify) # to print html in tree structure
+# print(soup.prettify) # to print html in tree structure
 
 #Step 3: HTML Tree Traversal
 title = soup.title #scrap title of the page
